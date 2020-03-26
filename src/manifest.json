@@ -1,0 +1,28 @@
+{
+	"manifest_version": 2,
+
+	"name": "The Easter Egg Hunt NZ",
+	"description": "Amist the self-isolation based lockdown, and the inability to hold exciting community easter egg hunts in New Zealand, this is an attempt to fill the void.",
+	"version": "1.0",
+	"author": "Michaela Kerr",
+	"icons": {
+		"128": "egg1.png"
+	},
+
+	"browser_action": {
+		"default_icon": "egg1.png",
+		"default_popup": "popup.html"
+	},
+	"web_accessible_resources": ["egg1.png"],
+	
+	"permissions": ["storage"], 
+  
+	"content_scripts": [
+		{
+			"matches": ["https://*.co.nz/*"],
+			"run_at": "document_end",
+			"js": ["eggCreator.js"]
+		}
+	]
+	
+}
