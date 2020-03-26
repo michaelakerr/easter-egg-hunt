@@ -28,4 +28,10 @@ This extension looks at the URL of a page and if it contains the word easter, an
 Currently, due to my inability to draw eggs, there is only one, but if you would like more, please email some more eggs to me!
 michaela.kerrr@gmail.com
 
+## Some example egg sites!
+
+[Trade me](https://newsroom.trademe.co.nz/articles/five-ways-to-nail-your-easter-game/)
+[The Easter Story](https://www.kiwifamilies.co.nz/2013/03/the-easter-story/)
+[Newshub](https://www.newshub.co.nz/home/lifestyle/2019/04/easter-explained-an-idiot-s-guide-to-the-holiday.html)
+
 As always, credit to Brent for the chrome extension [template](https://github.com/brentvollebregt/uow-moodle-rwa-ignorer)
