@@ -25,13 +25,15 @@ A way to keep me and everyone else in NZ occupied when they may or may not be wi
 
 This extension looks at the URL of a page and if it contains the word easter, and the page contains images, then this will insert an egg after the first image.  THis may be a header, an ad, or something else. 
 
-Currently, due to my inability to draw eggs, there is only one, but if you would like more, please email some more eggs to me!
+Currently, due to my inability to draw eggs, there is only one (now five!), but if you would like more, please email some more eggs to me!
 michaela.kerrr@gmail.com
+
+Please note: if you send me eggs, you will have to install the new version with your eggs in it! Otherwise they won't appear. 
 
 ## Some example egg sites!
 
-[Trade me](https://newsroom.trademe.co.nz/articles/five-ways-to-nail-your-easter-game/)
-[The Easter Story](https://www.kiwifamilies.co.nz/2013/03/the-easter-story/)
-[Newshub](https://www.newshub.co.nz/home/lifestyle/2019/04/easter-explained-an-idiot-s-guide-to-the-holiday.html)
+[Trade me](https://newsroom.trademe.co.nz/articles/five-ways-to-nail-your-easter-game/) \n
+[The Easter Story](https://www.kiwifamilies.co.nz/2013/03/the-easter-story/) \n
+[Newshub](https://www.newshub.co.nz/home/lifestyle/2019/04/easter-explained-an-idiot-s-guide-to-the-holiday.html) \n
 
 As always, credit to Brent for the chrome extension [template](https://github.com/brentvollebregt/uow-moodle-rwa-ignorer)
