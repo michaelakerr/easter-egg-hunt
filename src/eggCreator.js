@@ -11,7 +11,7 @@ function isPageElligible(){
 
 //Picks a random egg; Remember to add to Manifest as well.
 function eggPicker(){
-    var listofEggs = ["egg1.png", "egg2.png", "egg3.png"];
+    var listofEggs = ["egg1.png", "egg2.png", "egg3.png", "egg4.png", "egg5.png"];
     var egg = listofEggs[Math.floor(Math.random() * listofEggs.length)];
     return egg;
 }
