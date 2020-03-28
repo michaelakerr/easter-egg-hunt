@@ -1,4 +1,5 @@
 var pageTruth = false;
+var chooser = 0;
 
 function isPageElligible(){
     //check if page is from NZ
@@ -8,22 +9,27 @@ function isPageElligible(){
     return pageTruth;
 }
 
+//Picks a random egg; Remember to add to Manifest as well.
+function eggPicker(){
+    var listofEggs = ["egg1.png", "egg2.png", "egg3.png"];
+    var egg = listofEggs[Math.floor(Math.random() * listofEggs.length)];
+    return egg;
+}
+
 function eggLoader(){
-    //just add one to test
+    //just an egg
     var img = document.createElement('img');
-    img.src = chrome.extension.getURL('egg1.png');
+    var egg = eggPicker();
+    img.src = chrome.extension.getURL(egg);
     img.width = "80";
     img.height = "120";
-    //var appender = document.title;
+
     var appender = document.getElementsByTagName('img');
-    console.log(appender);
-    //appender[0].appendChild(img);
     appender[0].parentNode.appendChild(img);
     
     //Update Egg Counter
     chrome.storage.sync.get({'eggsFound': 0}, function(obj) {
         chrome.storage.sync.set({'eggsFound': obj.eggsFound + 1});
-        console.log(obj.eggsFound);
     });
 }
 

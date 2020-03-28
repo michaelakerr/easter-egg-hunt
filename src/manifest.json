@@ -13,7 +13,7 @@
 		"default_icon": "egg1.png",
 		"default_popup": "popup.html"
 	},
-	"web_accessible_resources": ["egg1.png"],
+	"web_accessible_resources": ["egg1.png", "egg2.png", "egg3.png"],
 	
 	"permissions": ["storage"], 
   
